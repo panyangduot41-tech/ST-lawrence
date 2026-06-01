@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>St. Lawrence Academy — Hai Referendum, Juba, South Sudan</title>
+  <meta name="description" content="St. Lawrence Academy is a leading private school in Hai Referendum, Juba, South Sudan, providing quality education from Nursery through Secondary level." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NOTICE BAR -->
+<div class="notice-bar" id="noticeBar">
+  📢 <strong>2025 Admissions Now Open</strong> — Enrol your child today.
+  <a href="admissions.html">Apply Here →</a>
+  <button onclick="document.getElementById('noticeBar').style.display='none'" style="background:none;border:none;cursor:pointer;margin-left:16px;font-size:1rem;">✕</button>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-crest">SL</div>
+      <div class="logo-text">
+        <span class="school-name">St. Lawrence Academy</span>
+        <span class="school-tagline">Hai Referendum · Juba</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="elearning.html">E-Learning</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#" class="nav-cta" onclick="openLogin(event)">Student Portal</a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="elearning.html">E-Learning</a>
+    <a href="contact.html">Contact</a>
+    <a href="#" class="btn btn-primary" onclick="openLogin(event)">Student Portal</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-pattern"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">Est. in Hai Referendum, Juba</div>
+      <h1>Transforming Lives Through <span>Quality Education</span></h1>
+      <p>St. Lawrence Academy provides an exceptional learning environment from Nursery through Secondary level, nurturing disciplined, confident, and academically excellent students in South Sudan.</p>
+      <div class="hero-actions">
+        <a href="admissions.html" class="btn btn-outline">Apply Now →</a>
+        <a href="about.html" class="btn btn-outline" style="background:rgba(255,255,255,0.1)">Learn More</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-card">
+        <div class="stat-number">500<span>+</span></div>
+        <div class="stat-label">Enrolled Students</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">40<span>+</span></div>
+        <div class="stat-label">Qualified Teachers</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3</div>
+        <div class="stat-label">School Levels</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">98<span>%</span></div>
+        <div class="stat-label">Pass Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURE STRIP -->
+<div class="feature-strip">
+  <div class="container">
+    <div class="strip-item">
+      <div class="strip-icon">🏫</div>
+      <div>
+        <strong>Nursery School</strong>
+        <span>Ages 2–5 · Play-based learning</span>
+      </div>
+    </div>
+    <div class="strip-item">
+      <div class="strip-icon">📚</div>
+      <div>
+        <strong>Primary School</strong>
+        <span>P1–P8 · Core curriculum</span>
+      </div>
+    </div>
+    <div class="strip-item">
+      <div class="strip-icon">🎓</div>
+      <div>
+        <strong>Secondary School</strong>
+        <span>S1–S4 · National exams</span>
+      </div>
+    </div>
+    <div class="strip-item">
+      <div class="strip-icon">💻</div>
+      <div>
+        <strong>E-Learning Portal</strong>
+        <span>Study support · Resources</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT PREVIEW -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2">
+      <div>
+        <div class="section-label">About the School</div>
+        <h2>Rooted in Excellence, <br>Committed to <span class="text-red">South Sudan</span></h2>
+        <p style="margin: 20px 0;">St. Lawrence Academy is a private institution located in the Hai Referendum area of Juba, South Sudan. We are proud to serve our community by offering structured, disciplined, and aspirational education at the Nursery, Primary, and Secondary levels.</p>
+        <p style="margin-bottom: 28px;">Our dedicated teachers, safe learning environment, and rigorous curriculum make us one of the most trusted schools in Juba. We believe every child in South Sudan deserves access to transformative, high-quality education.</p>
+        <a href="about.html" class="btn btn-ghost">Our Full Story →</a>
+      </div>
+      <div>
+        <!-- IMAGE REPLACE: Replace with a photo of the school building or school grounds -->
+        <img src="St.jpg"    
+          alt="St. Lawrence Academy School"
+          style="border-radius:14px; width:100%; height:380px; object-fit:cover; box-shadow:0 16px 48px rgba(192,21,42,0.15);"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section bg-pale">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Our Core Values</div>
+      <h2>What We Stand For</h2>
+      <p>Everything we do at St. Lawrence Academy is guided by enduring principles that shape character alongside academic achievement.</p>
+    </div>
+    <div class="grid-4">
+      <div class="card value-card" style="padding:28px; text-align:center;">
+        <div class="value-icon" style="margin:0 auto 18px;">🎯</div>
+        <h4>Academic Excellence</h4>
+        <p style="font-size:0.92rem;margin-top:8px;">We set high standards and provide the resources students need to surpass them.</p>
+      </div>
+      <div class="card value-card" style="padding:28px; text-align:center;">
+        <div class="value-icon" style="margin:0 auto 18px;">🤝</div>
+        <h4>Integrity & Discipline</h4>
+        <p style="font-size:0.92rem;margin-top:8px;">We build honest, responsible individuals who lead with character.</p>
+      </div>
+      <div class="card value-card" style="padding:28px; text-align:center;">
+        <div class="value-icon" style="margin:0 auto 18px;">🌍</div>
+        <h4>Community Service</h4>
+        <p style="font-size:0.92rem;margin-top:8px;">Our students are raised to give back and contribute to South Sudan's growth.</p>
+      </div>
+      <div class="card value-card" style="padding:28px; text-align:center;">
+        <div class="value-icon" style="margin:0 auto 18px;">💡</div>
+        <h4>Innovation</h4>
+        <p style="font-size:0.92rem;margin-top:8px;">We embrace modern teaching and technology to prepare students for the future.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACADEMICS PREVIEW -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Academics</div>
+      <h2>Three Schools Under One Roof</h2>
+      <p>From a child's very first steps in learning to preparation for national examinations — we cover every stage.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <!-- IMAGE REPLACE: Replace with a nursery/early childhood classroom photo -->
+        <img class="card-img" src="Nursery.jpg" alt="Nursery School" />
+        <div class="card-body">
+          <h3>🌱 Nursery School</h3>
+          <p>A warm, play-based environment for children aged 2–5. We focus on social, emotional, and early cognitive development through guided play, storytelling, and creative activities.</p>
+          <a href="academics.html#nursery" class="btn btn-ghost" style="margin-top:16px;">Learn More</a>
+        </div>
+      </div>
+      <div class="card">
+        <!-- IMAGE REPLACE: Replace with primary school students or classroom -->
+        <img class="card-img" src="Primary.jpg" alt="Primary School" />
+        <div class="card-body">
+          <h3>📘 Primary School</h3>
+          <p>Classes P1 to P8 following the national curriculum. Our trained teachers deliver English, Mathematics, Science, Social Studies, and more with discipline and care.</p>
+          <a href="academics.html#primary" class="btn btn-ghost" style="margin-top:16px;">Learn More</a>
+        </div>
+      </div>
+      <div class="card">
+        <!-- IMAGE REPLACE: Replace with secondary students or science lab -->
+        <img class="card-img" src="Seniors.jpg" alt="Secondary School" />
+        <div class="card-body">
+          <h3>🎓 Secondary School</h3>
+          <p>S1 to S4 offering a rigorous secondary curriculum leading to national examinations. Strong focus on STEM, Humanities, and examination preparation.</p>
+          <a href="academics.html#secondary" class="btn btn-ghost" style="margin-top:16px;">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section bg-pale">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Community Voices</div>
+      <h2>What Parents & Students Say</h2>
+    </div>
+    <div class="grid-3">
+      <div class="testimonial">
+        <p class="testimonial-text">"St. Lawrence Academy has completely changed my son's outlook on education. The teachers are dedicated and the environment is safe and nurturing. I couldn't be prouder."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">A</div>
+          <div>
+            <div class="author-name">Agnes Kiden</div>
+            <div class="author-role">Parent, Primary Section</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-text">"The discipline and high academic standards at this school prepared me well. I passed my S4 national exams with distinction and secured a university placement."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">D</div>
+          <div>
+            <div class="author-name">David Akol</div>
+            <div class="author-role">Former Student, S4 Graduate</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-text">"As a teacher here, I see firsthand the commitment this school has to student success. The management supports us, the students are motivated, and results show it."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">M</div>
+          <div>
+            <div class="author-name">Mr. Moses Lado</div>
+            <div class="author-role">Secondary Teacher, Mathematics</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section style="background:linear-gradient(135deg,var(--red-dark),var(--red));padding:80px 24px;text-align:center;">
+  <div class="container">
+    <h2 style="color:white;margin-bottom:16px;">Ready to Join the St. Lawrence Family?</h2>
+    <p style="color:rgba(255,255,255,0.85);font-size:1.1rem;max-width:540px;margin:0 auto 36px;">Enrolment is now open for the 2025 academic year. Take the first step toward a world-class education in Juba.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="admissions.html" class="btn btn-outline">Apply Now</a>
+      <a href="contact.html" class="btn btn-outline" style="background:rgba(255,255,255,0.12);">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+        <div class="logo-crest">SL</div>
+        <div class="logo-text">
+          <span class="school-name" style="color:white;">St. Lawrence Academy</span>
+          <span class="school-tagline">Hai Referendum · Juba</span>
+        </div>
+      </div>
+      <p>A leading private school in South Sudan, committed to transforming lives through quality education, discipline, and community values since our founding in Hai Referendum, Juba.</p>
+      <div class="social-links">
+        <a class="social-link" href="#" aria-label="Facebook">📘</a>
+        <a class="social-link" href="#" aria-label="WhatsApp">💬</a>
+        <a class="social-link" href="#" aria-label="YouTube">▶️</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="elearning.html">E-Learning</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>School Levels</h4>
+      <a href="academics.html#nursery">Nursery School</a>
+      <a href="academics.html#primary">Primary School</a>
+      <a href="academics.html#secondary">Secondary School</a>
+      <a href="elearning.html">Online Resources</a>
+      <a href="admissions.html">How to Apply</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="#">📍 Hai Referendum, Juba</a>
+      <a href="#">South Sudan</a>
+      <a href="tel:+211000000000">📞 +211 000 000 000</a>
+      <a href="mailto:info@stlawrenceacademy.edu.ss">✉️ info@stlawrenceacademy.edu.ss</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 St. Lawrence Academy, Juba, South Sudan. All rights reserved.</span>
+    <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></span>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+<!-- STUDENT LOGIN MODAL -->
+<div class="login-modal" id="loginModal">
+  <div class="login-box">
+    <button class="login-close" onclick="closeLogin()">✕</button>
+    <h3>Student Portal</h3>
+    <p class="sub">Access your results, timetable, and resources</p>
+
+    <div class="login-tabs">
+      <button class="login-tab active" onclick="switchTab(this,'student')">Student</button>
+      <button class="login-tab" onclick="switchTab(this,'parent')">Parent</button>
+      <button class="login-tab" onclick="switchTab(this,'teacher')">Teacher</button>
+    </div>
+
+    <div class="form-group">
+      <label>Student ID / Email</label>
+      <input type="text" id="loginId" placeholder="Enter your ID or email" />
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="loginPwd" placeholder="Enter your password" />
+    </div>
+    <button class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px;" onclick="handleLogin()">
+      Sign In →
+    </button>
+    <p style="text-align:center;font-size:0.85rem;margin-top:16px;color:var(--gray-mid);">
+      Forgot password? <a href="contact.html" style="color:var(--red);">Contact the office</a>
+    </p>
+    <div id="loginMsg" style="display:none;background:var(--red-pale);border:1px solid var(--red-tint);padding:12px;border-radius:6px;margin-top:16px;font-size:0.9rem;color:var(--red-dark);text-align:center;"></div>
+  </div>
+</div>
+
+<script>
+  // Hamburger menu
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobileNav');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    mobileNav.classList.toggle('open');
+  });
+
+  // Back to top
+  const backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', () => {
+    backTop.classList.toggle('visible', window.scrollY > 400);
+    // Notice bar after scroll
+    const nb = document.getElementById('noticeBar');
+    if(nb) nb.classList.toggle('show', window.scrollY > 100);
+  });
+  backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  // Student login modal
+  function openLogin(e) {
+    if(e) e.preventDefault();
+    document.getElementById('loginModal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLogin() {
+    document.getElementById('loginModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('loginModal').addEventListener('click', function(e) {
+    if(e.target === this) closeLogin();
+  });
+
+  function switchTab(btn, role) {
+    document.querySelectorAll('.login-tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('loginId').placeholder = role === 'student' ? 'Enter your Student ID or email' :
+      role === 'parent' ? 'Enter your parent/guardian email' : 'Enter your staff email';
+  }
+
+  function handleLogin() {
+    const id = document.getElementById('loginId').value.trim();
+    const pwd = document.getElementById('loginPwd').value.trim();
+    const msg = document.getElementById('loginMsg');
+    if(!id || !pwd) {
+      msg.style.display = 'block';
+      msg.textContent = 'Please fill in both fields to continue.';
+      return;
+    }
+    msg.style.display = 'block';
+    msg.textContent = '⏳ The student portal is currently being set up. Please check back soon or contact the school office.';
+  }
+
+  // Smooth entrance for hero text
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.hero-text > *').forEach((el, i) => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = `opacity 0.6s ease ${i * 0.15}s, transform 0.6s ease ${i * 0.15}s`;
+      setTimeout(() => { el.style.opacity = '1'; el.style.transform = 'none'; }, 100);
+    });
+  });
+</script>
+</body>
+</html>

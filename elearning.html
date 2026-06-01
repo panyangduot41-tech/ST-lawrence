@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learning — St. Lawrence Academy, Juba</title>
+  <meta name="description" content="Access online study resources, revision materials, and digital learning tools from St. Lawrence Academy, Juba, South Sudan." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .resource-card {
+      background: white;
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      border: 1px solid rgba(192,21,42,0.1);
+      transition: var(--transition);
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .resource-card:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
+    .resource-icon { font-size: 2rem; flex-shrink: 0; width: 52px; height: 52px; background: var(--red-pale); border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+    .resource-tag { display: inline-block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 10px; border-radius: 20px; margin-bottom: 8px; }
+    .tag-nursery { background: #fff3cd; color: #856404; }
+    .tag-primary { background: var(--red-pale); color: var(--red-dark); }
+    .tag-secondary { background: #d1ecf1; color: #0c5460; }
+    .tag-all { background: #e8f5e9; color: #1b5e20; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-crest">SL</div>
+      <div class="logo-text">
+        <span class="school-name">St. Lawrence Academy</span>
+        <span class="school-tagline">Hai Referendum · Juba</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="elearning.html" class="active">E-Learning</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html" class="nav-cta">Student Portal</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="elearning.html">E-Learning</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<div class="page-top">
+  <div class="page-banner">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">›</span><span>E-Learning</span></div>
+      <h1>E-Learning & Digital Resources</h1>
+      <p>Study support, revision materials, and online tools for St. Lawrence Academy students.</p>
+    </div>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2">
+      <div>
+        <div class="section-label">Learning Beyond the Classroom</div>
+        <h2>Study Anytime, <span class="text-red">Anywhere</span></h2>
+        <p style="margin:16px 0;">At St. Lawrence Academy, we recognise that great learning does not stop when the school bell rings. Our e-learning resources are designed to extend classroom learning, support revision, and help students prepare for examinations from the comfort of their homes.</p>
+        <p style="margin-bottom:24px;">Whether a student needs to revisit a Mathematics topic, practise English comprehension, or access past examination papers, our growing library of digital resources makes it possible — even with limited internet connectivity.</p>
+        <div style="background:var(--red-pale);border-radius:var(--radius-lg);padding:20px 24px;border-left:4px solid var(--red);">
+          <p style="font-size:0.93rem;color:var(--red-dark);font-weight:500;margin:0;">💡 <strong>For Students:</strong> Ask your class teacher for your login details to access the full digital library and past paper archive.</p>
+        </div>
+      </div>
+      <div>
+        <!-- IMAGE REPLACE: Replace with students using computers or tablets to study -->
+        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=700&q=80"
+          alt="E-Learning at St. Lawrence Academy"
+          style="border-radius:14px;width:100%;height:380px;object-fit:cover;box-shadow:var(--shadow);" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section bg-pale">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Digital Features</div>
+      <h2>What's Available Online</h2>
+      <p>Our e-learning platform provides a range of digital tools and resources for students at every level.</p>
+    </div>
+    <div class="grid-3">
+      <div class="elearn-card">
+        <div class="card-icon">📚</div>
+        <h3>Digital Library</h3>
+        <p>Access textbooks, reading materials, and supplementary notes across all subjects and school levels in downloadable PDF format.</p>
+      </div>
+      <div class="elearn-card">
+        <div class="card-icon">📝</div>
+        <h3>Past Exam Papers</h3>
+        <p>A growing archive of past national examination papers with marking guides to help students practise and build exam confidence.</p>
+      </div>
+      <div class="elearn-card">
+        <div class="card-icon">🎥</div>
+        <h3>Video Lessons</h3>
+        <p>Curated educational video content for key topics in Mathematics, Science, English, and more — accessible on any smartphone.</p>
+      </div>
+      <div class="elearn-card">
+        <div class="card-icon">📅</div>
+        <h3>Class Timetables</h3>
+        <p>Students and parents can view up-to-date class timetables, exam schedules, and important school calendar dates online.</p>
+      </div>
+      <div class="elearn-card">
+        <div class="card-icon">💬</div>
+        <h3>Teacher Messaging</h3>
+        <p>Students can submit questions and receive guidance from their subject teachers through a simple, monitored messaging system.</p>
+      </div>
+      <div class="elearn-card">
+        <div class="card-icon">📊</div>
+        <h3>Progress Tracker</h3>
+        <p>Parents can log in to view their child's attendance, assessment scores, and term progress reports in real time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES BY LEVEL -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Study Resources</div>
+      <h2>Resources by School Level</h2>
+      <p>Browse recommended study materials organised by school level. Log in to the student portal for the full library.</p>
+    </div>
+
+    <!-- FILTER TABS -->
+    <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:36px;" id="filterTabs">
+      <button class="btn btn-primary" style="padding:10px 20px;font-size:0.85rem;" onclick="filterResources('all', this)">All Levels</button>
+      <button class="btn btn-ghost" style="padding:10px 20px;font-size:0.85rem;" onclick="filterResources('nursery', this)">Nursery</button>
+      <button class="btn btn-ghost" style="padding:10px 20px;font-size:0.85rem;" onclick="filterResources('primary', this)">Primary</button>
+      <button class="btn btn-ghost" style="padding:10px 20px;font-size:0.85rem;" onclick="filterResources('secondary', this)">Secondary</button>
+    </div>
+
+    <div style="display:grid;gap:16px;" id="resourceList">
+      <div class="resource-card" data-level="primary">
+        <div class="resource-icon">📖</div>
+        <div>
+          <span class="resource-tag tag-primary">Primary</span>
+          <h4>English Language — P1 to P4 Reading Workbook</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Comprehension passages, vocabulary exercises, and grammar drills aligned to the national curriculum.</p>
+        </div>
+      </div>
+      <div class="resource-card" data-level="primary">
+        <div class="resource-icon">🔢</div>
+        <div>
+          <span class="resource-tag tag-primary">Primary</span>
+          <h4>Mathematics — P5 to P8 Practice Sets</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Topic-by-topic practice questions covering fractions, algebra basics, geometry, and data handling.</p>
+        </div>
+      </div>
+      <div class="resource-card" data-level="secondary">
+        <div class="resource-icon">🔬</div>
+        <div>
+          <span class="resource-tag tag-secondary">Secondary</span>
+          <h4>Biology S1–S2 — Cell Structure & Living Organisms</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Illustrated notes, diagrams, and review questions on cells, classification, and ecology topics.</p>
+        </div>
+      </div>
+      <div class="resource-card" data-level="secondary">
+        <div class="resource-icon">📐</div>
+        <div>
+          <span class="resource-tag tag-secondary">Secondary</span>
+          <h4>Mathematics — S3/S4 Exam Preparation Bundle</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Past papers 2018–2023, worked solutions, and formula sheets for the national S4 Mathematics exam.</p>
+        </div>
+      </div>
+      <div class="resource-card" data-level="nursery">
+        <div class="resource-icon">🎨</div>
+        <div>
+          <span class="resource-tag tag-nursery">Nursery</span>
+          <h4>Early Literacy — Alphabet & Phonics Activity Sheets</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Fun printable activity sheets for parents to use at home to reinforce letters, sounds, and early reading.</p>
+        </div>
+      </div>
+      <div class="resource-card" data-level="all">
+        <div class="resource-icon">📅</div>
+        <div>
+          <span class="resource-tag tag-all">All Levels</span>
+          <h4>2025 Academic Year Calendar & Exam Schedule</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Full calendar including term dates, examination weeks, and public holidays for the current academic year.</p>
+        </div>
+      </div>
+      <div class="resource-card" data-level="secondary">
+        <div class="resource-icon">🌍</div>
+        <div>
+          <span class="resource-tag tag-secondary">Secondary</span>
+          <h4>Geography S1–S4 — Physical & Human Geography of East Africa</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Comprehensive notes on climate, population, land use, and economic geography of the East African region.</p>
+        </div>
+      </div>
+      <div class="resource-card" data-level="primary">
+        <div class="resource-icon">🧪</div>
+        <div>
+          <span class="resource-tag tag-primary">Primary</span>
+          <h4>Science — P6 to P8 Experiments & Investigations Guide</h4>
+          <p style="font-size:0.92rem;margin-top:4px;">Step-by-step simple experiments students can do at home to reinforce science topics covered in class.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTAL CTA -->
+<section style="background:linear-gradient(135deg,var(--red-deep),var(--red));padding:80px 24px;text-align:center;">
+  <div class="container" style="max-width:600px;">
+    <div style="font-size:3rem;margin-bottom:16px;">🔐</div>
+    <h2 style="color:white;margin-bottom:12px;">Access the Full Student Portal</h2>
+    <p style="color:rgba(255,255,255,0.85);margin-bottom:32px;">Log in with your student credentials to access the complete digital library, submit assignments, and track your academic progress.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="index.html" class="btn btn-outline" onclick="window.location='index.html'">Student Login →</a>
+      <a href="contact.html" class="btn btn-outline" style="background:rgba(255,255,255,0.12);">Need Help?</a>
+    </div>
+    <p style="color:rgba(255,255,255,0.6);font-size:0.85rem;margin-top:20px;">Don't have login details? Contact the school office or your class teacher.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+        <div class="logo-crest">SL</div>
+        <div class="logo-text">
+          <span class="school-name" style="color:white;">St. Lawrence Academy</span>
+          <span class="school-tagline">Hai Referendum · Juba</span>
+        </div>
+      </div>
+      <p>A leading private school in South Sudan, committed to transforming lives through quality education, discipline, and community values.</p>
+      <div class="social-links">
+        <a class="social-link" href="#">📘</a>
+        <a class="social-link" href="#">💬</a>
+        <a class="social-link" href="#">▶️</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="elearning.html">E-Learning</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>School Levels</h4>
+      <a href="academics.html#nursery">Nursery School</a>
+      <a href="academics.html#primary">Primary School</a>
+      <a href="academics.html#secondary">Secondary School</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="#">📍 Hai Referendum, Juba, South Sudan</a>
+      <a href="tel:+211000000000">📞 +211 000 000 000</a>
+      <a href="mailto:info@stlawrenceacademy.edu.ss">✉️ info@stlawrenceacademy.edu.ss</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 St. Lawrence Academy. All rights reserved.</span>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop">↑</button>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobileNav');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    mobileNav.classList.toggle('open');
+  });
+  const backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', () => backTop.classList.toggle('visible', window.scrollY > 400));
+  backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  function filterResources(level, btn) {
+    document.querySelectorAll('#filterTabs button').forEach(b => {
+      b.classList.remove('btn-primary');
+      b.classList.add('btn-ghost');
+    });
+    btn.classList.remove('btn-ghost');
+    btn.classList.add('btn-primary');
+
+    document.querySelectorAll('#resourceList .resource-card').forEach(card => {
+      if (level === 'all' || card.dataset.level === level || card.dataset.level === 'all') {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+</script>
+</body>
+</html>
